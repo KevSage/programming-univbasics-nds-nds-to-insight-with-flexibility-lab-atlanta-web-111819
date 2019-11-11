@@ -90,7 +90,7 @@ end
 def movies_with_directors_set(source)
 
   indy = 0
-  while indy < 10 do
+  while indy < source.length do
   pp source
   indy += 1
 
